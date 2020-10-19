@@ -10,7 +10,7 @@ defmodule Wordcount do
     come: 1
     free: 1"
   """
-  @spec count(String) :: String
+  @spec count(String.t()) :: any()
   def count(word) do
     word
     |> String.split(" ")
